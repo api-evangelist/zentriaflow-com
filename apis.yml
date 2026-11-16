@@ -1,0 +1,28 @@
+aid: zentriaflow-com
+name: Zentria Flow
+description: 'Zentria Flow is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/zentriaflow-com/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-16'
+modified: '2026-11-16'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://zentriaflow.com
+- type: Documentation
+  url: https://zentriaflow.com/developers
+x-submission-notes: US tariff layers + landed cost by HTS code/origin; apis.json, OpenAPI, llms.txt, MCP
+  (io.github.orhansavash/zentria-flow-mcp). Cloudflare 403s scripts -- use the browser fetch strategy.
+x-submission-probe: root/openapi 403 (Cloudflare challenge); llms.txt 200 with browser UA
